@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Infográfico Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="">
+            <img src="imagenes/Logo.png" alt="Logo Encriptador" class="logo">    
+        </a>
+    </header>
+   
+    <main>
+        <section class="sec_encriptacion">
+            <textarea class="encriptacion" placeholder="Ingresar el Texto"></textarea>
+             <div class="aviso">
+                <p class="textoaviso">&#9432;No se aceptarán mayúsculas ni caracteres especiales.</p>
+             </div>
+
+             <div class="contenedorbotones">
+                <button type="submit" class="encriptar">Encriptar</button>
+                <button type="submit" class="desencriptar">Desencriptar</button>
+             </div>
+        </section>
+
+        <section class="bloquedesbloquear">
+            <div class="contenedor">
+                <img src="imagenes/Muñeco.png" class="muñeco" alt="Muñeco">
+                <p class="textomuñeco">Ningun mensaje escrito</p>
+                <p class="texto2">Ingrese el texto requiere encriptar ó desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="textocodi" readonly></textarea>
+            <button type="submit" class="copiar">Copiar</button>
+        </section>
+
+    </main>    
+
+        <script src="app.js"></script>
+        <div class="copyright">&#169;Copyright proyecto encriptación. 2024</div>
+        
+    
+</body>
+</html>
